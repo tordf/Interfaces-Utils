@@ -1,7 +1,7 @@
 package org.hibu.atek.tordf.util;
 import java.io.File;
 
-class DeleteDir {
+public class DeleteDir {
   public static void main(String args[]) {
     deleteDirectory(new File(args[0]));
   }
